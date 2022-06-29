@@ -231,6 +231,30 @@ p {
     color: red;
   }
 }
+@media (max-width: 575px) {
+  .header .header__logo {
+    width: 90px;
+    height: 90px;
+    margin-top: 4px;
+  }
+  .header .row-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .header .header__hotline {
+    font-size: 1.4rem;
+  }
+  .header .toggle {
+    margin-left: 16px;
+  }
+  .header .header__hotline span:first-child {
+    font-size: 0.62rem;
+  }
+  .header .header__hotline span:last-child {
+    font-size: 1rem;
+  }
+}
 
 .footer {
   padding: 40px 0;
@@ -381,6 +405,17 @@ p {
 @media (max-width: 769px) {
   .whyus-box .whyus-box__list {
     padding: 0 12px;
+  }
+}
+@media (max-width: 575px) {
+  .whyus-box .whyus-box__list .whyus-box--item {
+    max-width: 100%;
+    text-align: center;
+  }
+  .whyus-box .whyus-box__list .whyus-box--item div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
