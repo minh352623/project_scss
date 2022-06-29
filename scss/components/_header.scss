@@ -117,4 +117,29 @@
       }
     }
   }
+  @media (max-width: 575px) {
+    .header__logo {
+      width: 90px;
+      height: 90px;
+      margin-top: 4px;
+    }
+    .row-mobile {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      // gap: 0 65px;
+    }
+    .header__hotline {
+      font-size: 1.4rem;
+    }
+    .toggle {
+      margin-left: 16px;
+    }
+    .header__hotline span:first-child {
+      font-size: 0.62rem;
+    }
+    .header__hotline span:last-child {
+      font-size: 1rem;
+    }
+  }
 }
