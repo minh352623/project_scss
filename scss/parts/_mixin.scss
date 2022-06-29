@@ -1,0 +1,26 @@
+@mixin vartical-middle($top: 50%) {
+  position: absolute;
+  top: $top;
+  transform: translateY(-50%);
+}
+
+@mixin arrow-button($background: #fff, $color: #333, $border: none) {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: $background;
+  border-radius: 50%;
+  color: $color;
+  font-size: 1.5rem;
+  cursor: pointer;
+  line-height: 40px;
+  border: $border;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+@mixin section-base($space: 30px) {
+  padding: $space 0;
+}
+@mixin center($width: 100%) {
+  margin: 0 auto;
+  width: $width;
+}

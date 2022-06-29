@@ -1,0 +1,19 @@
+//import part
+@import "parts/reset";
+@import "parts/variables";
+@import "parts/mixin";
+@import "parts/fonts";
+@import "parts/base";
+
+//import components
+@import "components/header";
+@import "components/footer";
+
+//import pages
+@import "home/banner";
+@import "home/whyus";
+@import "home/product";
+@import "home/location";
+@import "home/hightlight";
+@import "home/partner";
+@import "home/contact";
